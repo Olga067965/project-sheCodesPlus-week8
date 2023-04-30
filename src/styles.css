@@ -72,7 +72,6 @@ body {
   font-weight: normal;
 }
 .Weather .temperature {
-  font-weight: bold;
   color: grey;
   margin-left: 5px;
   font-weight: 400;
@@ -80,8 +79,14 @@ body {
   font-weight: bold;
   font-size: 80px;
 }
+.d-flex {
+  align-items: center; 
+}
 .temperature:is(:hover, :focus) {
   color: #0281dc;
+}
+.temp-degrees {
+  align-items: center; 
 }
 .Weather img {
   margin: 10px 0;
@@ -92,11 +97,11 @@ body {
 .WeatherInfo .temperature-container {
   margin-top: 30px;
   align-items: center;
+  text-align: center;
 }
 .degrees {
   color: grey;
   font-size: 28px;
-  line-height: 36px;
   font-weight: normal;
   position: relative;
   line-height: 1;
