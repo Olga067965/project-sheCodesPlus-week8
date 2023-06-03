@@ -1,6 +1,6 @@
 body {
   font-family: "JetBrains Mono", monospace;
-  background: #fffbf5;
+  background-color: #f9f7fe;
 }
 .App {
   max-width: 900px;
@@ -127,6 +127,7 @@ footer a {
 }
 .card {
   border-color: #ffff;
+  padding: 20px auto;
 }
 .card:is(:hover, :focus) {
   opacity: 0.9;
